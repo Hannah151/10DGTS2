@@ -10,7 +10,7 @@ print(num_1) # This displays what num_1 contains
 
 
 # Store a string
-name_1 = 'Hannah'
+name_1 = 'Hannah,'
 print(name_1) # This displays what 'name' contains
 name = 'aaskjdha' # reassinging value to an existing variabble
 print(name)
