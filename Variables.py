@@ -10,8 +10,8 @@ print(num_1) # This displays what num_1 contains
 
 
 # Store a string
-name = 'Hannah'
-print(name) # This displays what 'name' contains
+name_1 = 'Hannah'
+print(name_1) # This displays what 'name' contains
 name = 'aaskjdha' # reassinging value to an existing variabble
 print(name)
 
@@ -23,5 +23,5 @@ sum_string = '5 + 5 = 10' # this is a string
 print(sum_string)
 
 # adding strings together is called concatenation
-concatenation = name + sum_string
+concatenation = name_1 + sum_string
 print(concatenation)
