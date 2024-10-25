@@ -1,6 +1,6 @@
 # Showing how variables work
 # Author: Hannah Ludemann
-# Date: 20 September 2024
+# Date: 24-09-20
 # Version: 1
 
 
@@ -11,7 +11,7 @@ print(num_1) # This displays what num_1 contains
 
 # Store a string
 name_1 = 'Hannah,'
-print(name_1) # This displays what 'name_1' contains
+print(name_1) # This displays what 'name' contains
 name = 'aaskjdha' # reassinging value to an existing variabble
 print(name)
 
