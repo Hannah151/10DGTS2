@@ -1,6 +1,6 @@
 # Error checking
 # Author: Hannah Ludemann
-# Date: 2024-10-16
+# Date: 2024-10-25
 # Version: 1
 
 
@@ -50,7 +50,7 @@ def valid_num(question, low, high):
     while True: 
         try:
             response = int(input(question))
-            if low <= response <= high:
+            if low <= response <= high: # if response >= low and response <= high:
                 break
             else:
                 print(error)
@@ -58,8 +58,18 @@ def valid_num(question, low, high):
 
         except ValueError:
             print(error)
-    return response
+    return response # make the value stored in the response variable available outside the loop
 
 # Main routine
 num_1 = valid_num('Enter a number between 1 and 15: ', 1, 15)
-print(f'You entered {num_1}.')
+print(f'You entered {num_1}.\n')
+num_2 = valid_num('Now enter a number between 50 and 100: ', 50, 100)
+print(f'You entered {num_2}.\n')
+num_3 = valid_num('Finally enter a number between 70 and 80: ', 70, 80)
+print(f'You entered {num_3}.\n')
+
+# Multiply the results of num_1, num_2, and num_3
+multiply = num_1 * num_2 * num_3
+print(f'Your three numbers multiplied together are equal to {multiply}.\n')
+sum = num_1 + num_2 + num_3
+print(f'The total of {num_1}, {num_2} and {num_3} is {sum}.\n')
